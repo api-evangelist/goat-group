@@ -1,7 +1,30 @@
 aid: goat-group
 name: Goat Group
-description: Goat Group is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Goat Group is the parent company behind a family of global marketplaces for
+  sneakers, apparel, and luxury goods, operating the GOAT marketplace and app
+  (goat.com), the Flight Club consignment stores and site, the Grailed
+  peer-to-peer menswear and streetwear community, and the alias B2B platform.
+  Founded in 2015 by Eddy Lu and Daishin Sugano and headquartered in Los
+  Angeles (Culver City), California, the company began as a sneaker
+  marketplace that pioneered ship-to-verify authentication and grew into one
+  of the largest platforms for buying and selling new and pre-owned style. Goat
+  Group went through Y Combinator (Winter 2015) and has raised capital from
+  investors including D1 Capital Partners, Park West Asset Management, Foot
+  Locker, Index Ventures, and others. The company does not currently publish a
+  public developer API program; this profile is a network identity record.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.goatgroup.com/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/goat-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,59 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Marketplace
+- Ecommerce
+- Sneakers
+- Apparel
+- Fashion
+- Resale
+- Authentication
+- Consumer
+- Retail
 apis: []
+common:
+- type: DomainSecurity
+  url: security/goat-group-domain-security.yml
+- type: Website
+  name: Goat Group
+  url: https://www.goatgroup.com/
+- type: Website
+  name: GOAT
+  url: https://www.goat.com/
+- type: Website
+  name: Grailed
+  url: https://www.grailed.com/
+- type: Website
+  name: Flight Club
+  url: https://www.flightclub.com/
+- type: About
+  name: About Goat Group
+  url: https://www.goatgroup.com/about
+- type: Careers
+  name: Careers
+  url: https://www.goatgroup.com/careers
+- type: Blog
+  name: News
+  url: https://www.goatgroup.com/news
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://www.goatgroup.com/privacy
+- type: TermsOfService
+  name: Terms of Service
+  url: https://www.goatgroup.com/terms
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/goat-group-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

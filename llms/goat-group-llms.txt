@@ -1,0 +1,22 @@
+# Goat Group
+
+> Goat Group is the parent company behind a family of global marketplaces for sneakers, apparel, and luxury goods — the GOAT marketplace and app, the Flight Club consignment stores, the Grailed peer-to-peer menswear community, and the alias B2B platform. Founded in 2015 by Eddy Lu and Daishin Sugano and headquartered in Los Angeles (Culver City), California, it pioneered ship-to-verify authentication for resale. Goat Group does not currently publish a public developer API program; this is a network identity record.
+
+## Company
+- [Goat Group](https://www.goatgroup.com/): Corporate website
+- [About Goat Group](https://www.goatgroup.com/about): Company overview
+- [Careers](https://www.goatgroup.com/careers): Open roles
+- [News](https://www.goatgroup.com/news): Company news and press
+
+## Brands
+- [GOAT](https://www.goat.com/): Marketplace and app for authenticated sneakers, apparel, and accessories
+- [Grailed](https://www.grailed.com/): Peer-to-peer marketplace and community for menswear and streetwear
+- [Flight Club](https://www.flightclub.com/): Consignment stores and marketplace for premium sneakers
+
+## Legal
+- [Privacy Policy](https://www.goatgroup.com/privacy)
+- [Terms of Service](https://www.goatgroup.com/terms)
+
+## Notes
+- No public developer API, OpenAPI, SDKs, or MCP server were found at the time of profiling.
+- Domain security posture (TLS/HSTS/SPF/DMARC) is captured in security/goat-group-domain-security.yml.

@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/ paths on Goat Group hosts
+note: >-
+  goatgroup.com is a client-side React single-page app that returns the HTML
+  app shell (content-type text/html) for every path, so /.well-known/ requests
+  return 200 but serve no real discovery document. The GOAT and Grailed
+  marketplace hosts return 403 to non-browser clients (bot protection). No
+  genuine well-known discovery documents were found; no WellKnown/SecurityTxt
+  pointer is wired.
+hosts:
+- host: https://www.goatgroup.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    result: spa-shell-not-a-document
+  - path: /.well-known/openid-configuration
+    status: 200
+    result: spa-shell-not-a-document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    result: spa-shell-not-a-document
+  - path: /.well-known/api-catalog
+    status: 200
+    result: spa-shell-not-a-document
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    result: spa-shell-not-a-document
+- host: https://www.goat.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    result: bot-protection
+- host: https://www.grailed.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    result: bot-protection
