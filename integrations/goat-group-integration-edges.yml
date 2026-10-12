@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/goat-group/integrations
+- https://n8n.io/integrations/goat-group/
+- https://composio.dev/toolkits/goat-group
+- https://monid.ai/tools/goat-group
+checked:
+- https://composio.dev/toolkits/goat-group
+- https://monid.ai/tools/goat-group
+- https://n8n.io/integrations/goat-group/
+- https://zapier.com/apps/goat-group/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
